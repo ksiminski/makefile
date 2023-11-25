@@ -2,6 +2,14 @@
 
 ## English version 
 
+### operating system
+
+It works for unix/linux OS.
+
+### prerequisites
+
+The script uses: ```bash```, ```awk```.
+
 ### usage
 
 Run in your C/C++ sources folder:
@@ -37,7 +45,15 @@ Options in the ```makefile``` file:
 
 * ```make doxygen``` starts the ```doxygen``` program.
 
-## Polish version
+## wersja polska
+
+### system operacyjny
+
+Skrypt działa w uniksie/linuksie.
+
+### wymagania
+
+Skrypt korzysta z ```bash```a i ```awk```.
 
 ### użycie
 
