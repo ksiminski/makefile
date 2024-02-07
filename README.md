@@ -28,7 +28,7 @@ Options in the ```makefile``` file:
 * ```make debug```
    compiles in debug mode and runs in the valgrind environment. Creates a ```_debug``` folder and saves the binary files there.
 
-* ```make debug```
+* ```make gprof```
    compiles in debug mode, runs the gprof profiler and writes its result to the standard output.
 
 * ```make clean``` removes binary files (```*.o``` and ```main```) along with the ```_release``` and ```_debug``` folders.
@@ -75,7 +75,7 @@ Opcje w pliku ```makefile```:
   kompiluje w trybie debug i uruchamia w środowisko valgrind.
 Tworzy folder ```_debug``` i tam zapisuje pliki binarne.
 
-* ```make debug```
+* ```make gprof```
   kompiluje w trybie debug, uruchamia profiler gprof i wypisuje jego wynik na standardowe wyjście.
 
 * ```make clean``` usuwa pliki binarne (```*.o``` i ```main```) wraz z folderami ```_release``` i ```_debug```.
