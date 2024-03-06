@@ -87,9 +87,9 @@ find . -type f -name "*.cpp" -or -name "*.c" | awk '
  
          {  
              zrodlo = $1;
-             sub(/\.\//, "", zrodlo);
+             gsub(/\.\//, "", zrodlo);
              obiekt = zrodlo;
-             sub(/\//, "-", obiekt);
+             gsub(/\//, "-", obiekt);
              split(zrodlo, nazwa_zrodlo, ".");
              split(obiekt, nazwa_obiekt, ".");
              printf("$(release_folder)/%s.o : %s.%s\n", nazwa_obiekt[1], nazwa_zrodlo[1], nazwa_zrodlo[2]); 
