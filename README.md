@@ -72,7 +72,7 @@ Opcje w pliku ```makefile```:
   Tworzy folder ```_release``` i tam zapisuje pliki binarne.
 
 * ```make debug```
-  kompiluje w trybie debug i uruchamia w środowisko valgrind.
+  kompiluje w trybie debug i uruchamia w środowisku ```valgrind```.
 Tworzy folder ```_debug``` i tam zapisuje pliki binarne.
 
 * ```make gprof```
